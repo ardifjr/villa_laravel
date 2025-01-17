@@ -1,0 +1,33 @@
+<!-- public/css/app.css -->
+
+/* CSS code ... */
+
+.vila-image {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* Style untuk tombol aksi */
+.view-btn,
+.edit-btn,
+.delete-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.view-btn:hover,
+.edit-btn:hover,
+.delete-btn:hover {
+    background-color: #0056b3;
+}
